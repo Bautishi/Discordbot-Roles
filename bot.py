@@ -4,7 +4,7 @@ from discord.ext import commands
 from discord.ui import Select, View, Button
 
 # Reemplaza con tu token de bot
-TOKEN = "MTMwNTIzMzc2NTI5MDk5OTg5OQ.GoYE00.GFr8aH2BlWvEmBoBtKdqEzBsi5i2kmygGuclC8"
+TOKEN = "MTMwNTIzMzc2NTI5MDk5OTg5OQ.Gp8gz5.I8k9I7jesuhBbIbFOy73wAefDvu7dnbZCnpPAY"
 
 intents = discord.Intents.default()
 intents.message_content = True
