@@ -1,10 +1,12 @@
 import discord
 import server
+import os
 from discord.ext import commands
 from discord.ui import Select, View, Button
 
+
 # Reemplaza con tu token de bot
-TOKEN = "MTMwNTIzMzc2NTI5MDk5OTg5OQ.Gp8gz5.I8k9I7jesuhBbIbFOy73wAefDvu7dnbZCnpPAY"
+TOKEN = os.getenv("TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
